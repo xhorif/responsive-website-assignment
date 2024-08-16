@@ -417,6 +417,7 @@ margin-left: 480px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+border-radius: 20px;
 }
 
 .img-mid{
@@ -516,7 +517,8 @@ margin-left: 800px;
   justify-content: space-around;
   margin-top: 20px;
  margin-left: 490px;
- background-color: rgba(159, 146, 146, 0.402);
+ background-color: rgba(87, 82, 82, 0.491);
+ border-radius: 15px;
 }
 
 
@@ -555,3 +557,132 @@ margin-left: 800px;
   margin: 5px 0 0 0;
   font-size: 1rem;
 }
+
+
+.border{
+  position: static;
+  width: 100%;
+  height: auto;
+
+}
+.bg-border{
+  position: static;
+  width: 100%;
+  height: 436px;
+  background: rgba(255, 255, 255, 0.1);
+display: flex;
+justify-content: space-between;
+}
+.first-foot{
+margin-left: 100px;
+
+
+}
+
+
+.first-foot h2{
+  color: rgb(230, 83, 60);
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.first-foot{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+
+}
+.second-foot{
+
+}
+.second-foot h3{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.second-foot ul{
+list-style: none;
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 23px;
+font-weight: 400;
+line-height: 200%;
+letter-spacing: 0%;
+text-align: left;
+}
+.third-foot{
+margin-right: 100px;
+
+}
+
+.third-foot h3{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+.third-foot ul{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0%;
+  text-align: left;}
+
+  .bg-foot{
+    background: rgba(255, 255, 255, 0.1);
+  height: auto;
+  width: 100%;
+  margin-top: 0%;
+  gap: 0px;
+  display: flex;
+   }
+
+ .line{
+  width: 1000px;
+  border: none;
+height: 2px;
+
+background-color: white;
+margin: 20px auto;
+
+ }
+ .footer-p{
+  background: rgba(255, 255, 255, 0.1);
+  height: auto;
+  width: 100%;
+  margin-top: 0%;
+  gap: 0px;
+  display: flex;
+
+ }
+ .last-foot{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+margin: 10px auto;
+ }
+
+
