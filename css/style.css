@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+NO:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared-styles */
+.bg-color{
+width: 100%;
+height: 140px;
+background-color: black;
+}
+.display-flex{
+    display: flex;
+}
+.first-color{
+color:rgb(255, 255, 255) ;
+
+}
+.second-color{
+  color:  rgba(255, 255, 255, 0.413);
+
+}
+.third-color{
+    color:rgb(230, 83, 60) ;
+}
+.primary-bg{
+background-color: black;
+
+}
+.secondary-bg{
+    background: rgb(49, 47, 47);
+
+}
+/* header-styles */
+
+/* navbar-related-styles */
+.brand{
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.navbar{
+justify-content: space-between;
+margin-left: 100px;
+margin-right: 100px;
+
+align-items: center;
+}
+.nav-link{
+    font-weight: 400;
+text-decoration:none ;
+
+}
+.nav-item{
+list-style: none;
+margin-right: 30px;
+font-size: 1.5rem;
+/* margin: 25px; */
+}
+
+.navbar, .banner{
+max-width: 1440px;
+margin: 0 auto;
+/* height: 1000px; */
+}
+.banner{
+height: 680px;
+width: 100%;
+}
+/* banner-related-styles */
+.img-bg{
+ 
+background-image: url('../images/Images\ 2.png');
+
+background-repeat: no-repeat;
+position: absolute;
+width: 349px;
+height: 580px;
+left: 1337px;
+top: 310px;
+
+}
+.banner-title{
+  position: static;
+  width: 520px;
+  height: 281px;
+  
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 100px;
+}
+.banner-description{
+  position: static;
+  width: 800px;
+  height: 48px;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 0%;
+}
+.first-btn{
+  background-color:rgb(230, 83, 60) ;
+  color: rgb(255, 255, 255);
+  padding: 16px 40px 16px 40px;
+  font-size:  1.4rem; 
+  border-radius: 48px;
+  margin-top: 50px;
+}
+
+.second-btn{
+background-color: black;
+color:rgb(255, 255, 255) ;
+padding: 16px 40px 16px 40px;
+border-radius: 48px;
+font-size:  1.4rem; 
+margin-top: 100px;
+}
+
+.banner-design{
+  margin-top: 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  
+
+position: absolute;
+width: 190px;
+height: 130px;
+left: 1520px;
+top: 420px;
+text-align: center;
+padding-bottom: 20px; 
+
+
+}
+.box-head{
+  color: rgb(255, 255, 255);
+  position: absolute;
+width: 116px;
+height: 40px;
+margin-left: 20px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+
+}
+.box-des{
+  color: rgba(255, 255, 255, 0.65);
+  position: absolute;
+  width: 146px;
+  height: 20px;
+ margin-top: 80px;
+ margin-left: 20px;
+font-size: 0.8rem;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+}
+.back-box{
+  position: absolute;
+width: 206px;
+height: 96px;
+left: 1264px;
+top: 750px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.circle-box{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background: rgb(230, 83, 60);
+margin-left: 10px;
+margin-top: 20px;
+}
+.c-head{
+  position: absolute;
+width: 68px;
+height: 24px;
+color: rgb(250, 250, 249);
+margin-left: 75px;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+margin-top: 10px;
+
+}
+.c-des{
+  color: rgba(239, 237, 232, 0.65);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  position: absolute;
+  width: 108px;
+  height: 24px;
+  margin-left: 75px;
+  margin-top: 40px;
+
+}
+
+
+/* responsive-midea-query */
+
+
