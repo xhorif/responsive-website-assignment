@@ -685,7 +685,7 @@ letter-spacing: 0.3px;
 margin: 10px auto;
  }
 
- /* bmi-section */
+
 
 .h-section h2{
   color: rgb(255, 255, 255);
@@ -716,10 +716,10 @@ background: rgb(34, 34, 34);
 border: 2px solid white;
 display: flex;
 justify-content: space-between;
-
+border-radius: 15px;
 }
 
-/* copied */
+
 .bmi-head{
   color: rgb(255, 255, 255);
   font-family: Inter;
@@ -728,7 +728,7 @@ justify-content: space-between;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: center;
-
+ 
 
 }
 .table-container {
@@ -746,6 +746,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   text-align: left;
+  
 }
 
 th, td {
@@ -756,6 +757,7 @@ th, td {
   border-bottom: 1px solid #dddddd;
   font-size: 18px;
   border: 2px solid white;
+  border-radius: 15px;
 }
 
 th {
@@ -775,7 +777,7 @@ tr:hover {
   background-color: #dfe6e9;
 }
 
-/* copied */
+
 
 .container {
   background: rgb(34, 34, 34);
@@ -816,6 +818,7 @@ text-align: center;
   border: 2px solid white;
 width: 600px;
 height: 300px;
+border-radius: 15px;
 }
 .form-col {
   flex: 1;
@@ -835,11 +838,11 @@ height: 300px;
 .form-row input, .form-row select {
   width: 100%;
   height: 0 auto;
-  /* border: 2px solid white; */
+  
 }
 
 .btn-last {
-  /* display: block; */
+  
   width: 25%;
   padding: 10px;
   background-color: tomato;
@@ -856,4 +859,3 @@ button:hover {
   margin-left: 20px;
 }
 
-/* copied */
